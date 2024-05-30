@@ -1,0 +1,13 @@
+MACIERZE RZADKIE : 
+
+https://matteding.github.io/2019/04/25/sparse-matrices/
+
+
+OTYMALNOSC PAMIECI - TENSORY RZADKIE : 
+
+https://pytorch-geometric.readthedocs.io/en/latest/advanced/sparse_tensor.html
+
+
+Design Principles for Sparse Matrix Multiplication on the GPU :
+
+https://arxiv.org/pdf/1803.08601
