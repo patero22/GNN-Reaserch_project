@@ -11,3 +11,9 @@ https://pytorch-geometric.readthedocs.io/en/latest/advanced/sparse_tensor.html
 Design Principles for Sparse Matrix Multiplication on the GPU :
 
 https://arxiv.org/pdf/1803.08601
+
+
+Dane do implementacji w modelach:
+
+OGB.nodeprop
+https://ogb.stanford.edu/docs/nodeprop/
