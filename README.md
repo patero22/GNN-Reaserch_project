@@ -49,7 +49,7 @@ Optimize memory management for large-scale graph data.
 
 
 
-# TL;DR:
+# TL;DR
 This project compares how different sparse matrix formats (COO, CSR, CSC) impact the efficiency of Graph Neural Networks (GNNs) in two libraries: PyTorch Geometric (PyG) and Deep Graph Library (DGL). By focusing on three GNN models, we analyze how data formats affect computational performance.
 
 ## Goals
