@@ -1,4 +1,4 @@
-### Project: Efficient Data Formats for Graph Neural Networks (GNNs)
+# Project: Efficient Data Formats for Graph Neural Networks (GNNs)
 
 
 ## Overview
@@ -8,32 +8,36 @@ This project aims to thoroughly compare and understand how different sparse matr
 
 ## Goals
 
-#Theoretical Understanding: Gain a foundational knowledge of Graph Neural Networks (GNNs) and their relevance.
-#Data Format Analysis: Study the three most popular data formats used in GNN computations: COO (Coordinate), CSR (Compressed Sparse Row), and CSC (Compressed Sparse Column).
-#Performance Evaluation: Analyze the impact of data formats on computation performance in PyG and DGL libraries, focusing on three specific GNN models chosen from the following options:
+### Theoretical Understanding: 
+Gain a foundational knowledge of Graph Neural Networks (GNNs) and their relevance.
+### Data Format Analysis: 
+Study the three most popular data formats used in GNN computations: COO (Coordinate), CSR (Compressed Sparse Row), and CSC (Compressed Sparse Column).
+### Performance Evaluation: 
+Analyze the impact of data formats on computation performance in PyG and DGL libraries, focusing on three specific GNN models chosen from the following options:
 GCN (Graph Convolutional Network)
 GraphSAGE
 RGCN (Relational Graph Convolutional Network)
 GAT (Graph Attention Network)
 GIN (Graph Isomorphism Network)
 Graph Transformer
-#Publication: Write a publication that discusses how the choice of data format affects computational efficiency and storage in the PyG and DGL libraries.
+### Publication: 
+Write a publication that discusses how the choice of data format affects computational efficiency and storage in the PyG and DGL libraries.
 
 
 ## Project Workflow
 
-# Research and Learning:
+### Research and Learning:
 Study the theoretical aspects of Graph Neural Networks.
 Investigate how GNN models are implemented in different data formats (COO, CSR, CSC).
-# Data Format Comparison:
+### Data Format Comparison:
 Implement and test the three selected GNN models using different sparse matrix formats in both PyG and DGL.
 Measure and compare the computational efficiency of the models when using COO, CSR, and CSC formats.
-# Analysis and Reporting:
+### Analysis and Reporting:
 Document the results and analyze how each format impacts the speed, memory usage, and overall performance.
 Focus on the differences in data management and storage in PyG vs. DGL.
-# Visualization:
+### Visualization:
 Use Python to create detailed visualizations of the data format comparisons, providing graphical insights into performance impacts.
-# Final Report:
+### Final Report:
 Compile the findings into a written publication that highlights key observations and conclusions regarding the impact of data formats on GNN efficiency.
 
 
@@ -45,7 +49,7 @@ Optimize memory management for large-scale graph data.
 
 
 
-### TLDR:
+# TL;DR:
 This project compares how different sparse matrix formats (COO, CSR, CSC) impact the efficiency of Graph Neural Networks (GNNs) in two libraries: PyTorch Geometric (PyG) and Deep Graph Library (DGL). By focusing on three GNN models, we analyze how data formats affect computational performance.
 
 ## Goals
@@ -61,4 +65,6 @@ This project compares how different sparse matrix formats (COO, CSR, CSC) impact
 4. Write a report summarizing findings.
 
 ## Future Work
-Expand the project with more GNN models, data formats, and further optimization.
+1. Expand the project with more GNN models.
+2. Expand the project with more data formats.
+3. Expand the project with optimization.
